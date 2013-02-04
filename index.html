@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Roche</title>
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/validate.min.js" type="text/javascript"></script>
+<script src="js/init.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="generic_navigation"> <!-- top menu/header -->
+		<a href="#"><div class="active">Contact</div></a>
+		<div class="palka"></div>
+		<a href="#">Help!</a>
+		<div class="palka"></div>
+		<a href="#">Sitemap</a>
+		<div class="palka"></div>
+		<a href="#">Logout</a>
+	</div>
+	<div class="logo"> <!-- benner -->
+		<a href="#"><img src="img/logo.png" title="" alt="" /></a>
+	</div>
+	<div class="primary_navigation"> <!-- main manu -->
+		<a href="#">Home</a>
+		<a href="#">Healthy Eating</a>
+		<a href="#">Keeping Active</a>
+		<a href="#">Downloads</a>
+		<a href="#">Tips and Tactics</a>
+		<a href="#">About Xenical</a>
+		<a href="#">Contact Information</a>
+	</div>
+	<div class="pasek"></div> <!-- strip between banner and main page -->
+	<div class="page"> <!-- main page -->
+		<div class="main">
+			<div class="pagename">
+				Contact
+			</div>
+			<div class="text">
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras ullamcorper!
+			</div>
+			<div class="error" style="display:none; margin-top: 20px;"> <!-- space for future error message -->
+			  <span></span>
+			</div>
+			<form id="form" class="form" action="#" method="post"> <!-- main form -->
+				<div class="formleft"> <!-- left side of main form -->
+					<p>
+						<label>Subject*</label>
+						<select name="subject" class="form1" style="width: 297px;">
+							<option value="" selected="selected">Please select</option>
+							<option value="Something">Something</option>
+							<option value="Something2">Something else</option>
+						</select>
+					</p>
+					<p>
+						<label>Country*</label>
+						<select name="country" class="form1" style="width: 297px;">
+							<option></option>
+							<option value="pl">Poland</option>
+						</select>
+					</p>
+					<p>
+						<label>Your Message</label>
+						<textarea name="message" id="textarea1" class="form1" style="height: 80px;"></textarea>
+					</p>
+					<p>
+						<label>Email*</label>
+						<input type="email" class="form1" name="email" />
+					</p>
+					<p>
+						<label style="display: block;">Title</label>
+						<select name="title" class="form1" style="width: 170px;">
+							<option>Please select</option>
+							<option>Something</option>
+						</select>
+					</p>
+					<p>
+						<label>First Name*</label>
+						<input type="text" class="form1" name="name" />
+					</p>
+					<p>
+						<label>Surname*</label>
+						<input type="text" class="form1" name="surname" />
+					</p>
+						<a style="float:right;margin-top: -10px;">*Mandatory</a>
+				</div>
+				<div class="formright"> <!-- right side of main form -->
+					<p>
+						<label>Company</label>
+						<input type="text" class="form1" name="company" />
+					</p>
+					<p>
+						<label>Address</label>
+						<input type="text" class="form1" name="address" />
+					</p>
+					<p style="padding-bottom: 20px;">
+						<label style="width: 220px; display: block;">City, Zip</label>
+						<input type="text" name="city" style="width: 210px; float: left;" />
+						<input type="text" maxlength="6" name="postalcode" style="width: 59px; float: right;" />
+					</p>
+					<p>
+						<label>Telephone</label>
+						<input type="text" class="form1" id="telephone" name="telephone" />
+					</p>
+					<p>
+						<label>Fax</label>
+						<input type="text" class="form1" name="fax" />
+					</p>
+					<p>
+						<label>Position</label>
+						<input type="text" class="form1" name="position" />
+					</p>
+					<p>
+						<input type="radio" name="check" value="mutus" style="float: left; margin-left: 0px;" /><a class="radiot">Mutus nomen</a>
+						<input type="radio" name="check" value="detit" style="float: left;"/><a class="radiot">Detit cocis</a>
+					</p>
+					<div class="clear"></div> <!-- clear margin itp -->
+					<p>
+						<input type="checkbox" class="checkte" name="agree" value="" style="float: left; margin-left: 0px;" /><a class="checkt">I agree Lorem ipsum dolor sit amet, consect etuer adipiscing elit.</a> 
+					</p>
+				</div>
+				<div class="clear"></div> <!-- clear margin itp -->
+				<div class="button1">
+					<p>
+						<input type="submit" value="Submit" class="sbutton" />
+					</p>
+				</div>
+			</form>
+		</div>
+		<div class="right"> <!-- bar on the right side -->
+			<div class="search">
+				<form class="center">
+					<input type="search" name="search" value="Search for..." placeholder="Search for..." class="searchbox" onFocus="if(this.value=='Search for...')this.value='';" onBlur="if(this.value=='')this.value='Search for...';" />
+				</form>
+			</div>
+			<div class="rightpanel">
+				<div class="dotline"></div>
+				<div class="news">
+					<div class="newsname">
+						Recipe of the week!
+					</div>
+					<div class="newsbold">
+						AUTUMN SALAD WITH MAPE BALSAMIC DRESSING
+					</div>
+					<div class="newsnormal">
+						The homemade salad dressing and crunchy topping make this salad irresistible.
+						<a href="#" id="more1" class="more" title="More" style="float: right;">> More</a>
+					</div>
+				</div>
+				<div class="dotline2"></div>
+				<div class="news">
+					<div class="newsname">
+						Coming soon
+					</div>
+					<div class="newsbold" style="font-weight:normal;">
+						Understanding what being and overweight means, what the risks are and how you benefit from and to losing weight is an important part of helping Xenical (orlistat) work for you. And, losing weight doesn't have to be hard work. The health risks of and carrying extra and weight include cancer, high cholesterol.
+					</div>
+				</div>
+				<div class="dotline2"></div>
+				<div class="news">
+					<div class="newsname">
+						Download the latest instrucation
+					</div>
+					<div class="newsbold">
+						Roche annonces topline outcomes for MIRCERA study in advanced long cancer...
+					</div>
+					<a href="#" id="more2" class="more" title="More" style="float: right;padding-right: 22px;">> More</a>
+					<div class="newsbold" style="padding-top:30px;">
+						Roche annonces topline outcomes for MIRCERA study in advanced long cancer 
+					</div>
+					<a href="#" id="more3" class="more" title="More" style="float: right;padding-right: 22px;">> More</a>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="footer"> <!-- bottom part of page/footer -->
+			<div class="footerl">
+				<a href="#">Privacy stetement</a>
+				<div class="palkaf"></div>
+				<a href="#">Logout</a>
+			</div>
+			<div class="dotlinef"></div>
+			<div class="textf">
+				Disclaimer: MAPassist.com is a compreshesive resource for healthcare professionals outside the US. If you are a US resident please visit www.mapassist.com. The information on this site is not country-specific and may contain information that is outside the approved indications in the country in which you are located.
+			</div>
+			<div class="textf" style="margin-top: -20px;">
+				&copy; 2008 F. Hoffmann-La Roche Ltd
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="bg"></div>
+</body>
+</html> 
